@@ -35,7 +35,7 @@ namespace Persistence.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Tittle")
+                    b.Property<string>("Title")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Venue")
